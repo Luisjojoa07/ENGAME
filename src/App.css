@@ -731,3 +731,143 @@ html, body, #root {
   .feedback-butt 
 }
 
+@media (max-width: 600px) {
+
+  /* Botones de opciones se vuelven más pequeños */
+  .option-btn, .audio-btn, .next-btn {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 120px; /* No crece demasiado */
+    font-size: 0.8rem; /* Texto más pequeño */
+    padding: 6px 10px; /* Menos padding para que quepa */
+  }
+
+  /* Grid de opciones adaptativo */
+  .options-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 6px;
+    width: 100%;
+    justify-items: center;
+  }
+
+  /* Botones de feedback (audio / siguiente) */
+  .feedback-buttons {
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Ajuste final de texto para feedback-box */
+  .feedback-box {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+}
+/* Ajuste responsivo adicional para pantalla de bienvenida */
+@media (max-width: 768px) {
+  .welcome-screen {
+    padding: 2rem 1rem; /* Ajusta el padding para que no se pierda contenido */
+  }
+
+  .welcome-title {
+    font-size: 2.2rem; /* Reducir tamaño de letra progresivamente */
+    margin-bottom: 0.4rem;
+  }
+
+  .welcome-text {
+    font-size: 1rem; /* Reducir tamaño de texto explicativo */
+  }
+
+  .welcome-input {
+    width: 90%; /* Hacer input más flexible en pantalla pequeña */
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .welcome-btn {
+    font-size: 1rem;
+    padding: 12px 28px;
+  }
+}
+
+/* Ajuste aún más pequeño para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: 1.8rem;
+  }
+
+  .welcome-text {
+    font-size: 0.95rem;
+  }
+
+  .welcome-input {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+
+  .welcome-btn {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+}
+/* Ajuste para móviles: pantalla de bienvenida y logo */
+@media (max-width: 768px) {
+  .welcome-screen {
+    padding-top: 3rem; /* Baja toda la pantalla un poco */
+  }
+
+  .welcome-title {
+    font-size: 2.2rem;
+    margin-top: 0.5rem; /* Baja título un poquito */
+    margin-bottom: 0.4rem;
+  }
+
+  .app-logo-inline {
+    margin-top: 10px; /* Baja el logo en móviles */
+    width: 70px; /* Ajusta tamaño */
+    height: 70px;
+  }
+
+  .welcome-text {
+    font-size: 1rem;
+  }
+
+  .welcome-input {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .welcome-btn {
+    font-size: 1rem;
+    padding: 12px 28px;
+  }
+}
+
+/* Ajuste para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: 1.8rem;
+  }
+
+  .app-logo-inline {
+    margin-top: 8px; /* Baja aún más si la pantalla es muy pequeña */
+    width: 60px;
+    height: 60px;
+  }
+
+  .welcome-text {
+    font-size: 0.95rem;
+  }
+
+  .welcome-input {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+
+  .welcome-btn {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+}
