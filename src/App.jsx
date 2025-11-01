@@ -271,7 +271,7 @@ export default function App() {
 
                     {/* Botones fuera del recuadro */}
                     <div className="feedback-buttons">
-                      <button className="audio-btn" onClick={() => speakWord(correctAnswer)}>
+                      <button className="audio-btn" onClick={() => speakWord(correctAnswer)}onTouchStart={() => speakword(correctAnswer)}>
                         🔊 Escuchar palabra
                       </button>
                       <button className="next-btn" onClick={handleNext}>
