@@ -170,12 +170,12 @@ export default function App() {
         {/* === Saludo y selección de categorías === */}
         {mostrarSaludo && !category && (
           <div className="category-select">
-            <h2>✨ Bienvenido {nombreUsuario} ✨</h2>
+            <h2> Bienvenido {nombreUsuario} </h2>
             <h3>Elige una categoría para comenzar:</h3>
 
             <div className="cat-grid">
               {Object.keys(categories).map((cat) => {
-                let emoji = "🎯";
+                let emoji = "👤";
                 if (cat.toLowerCase().includes("colores")) emoji = "🎨";
                 else if (cat.toLowerCase().includes("animales")) emoji = "🐾";
                 else if (cat.toLowerCase().includes("comida")) emoji = "🍎";
