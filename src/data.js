@@ -1,0 +1,45 @@
+export const categories = {
+  "Partes del Cuerpo": [
+    { word: "arm", image: "arm.png" },
+    { word: "ear", image: "ear.png" },
+    { word: "eye", image: "eye.png" },
+    { word: "finger", image: "finger.png" },
+    { word: "foot", image: "foot.png" },
+    { word: "hair", image: "hair.png" },
+    { word: "hand", image: "hand.png" },
+    { word: "head", image: "head..png" },
+    { word: "leg", image: "leg.png" },
+    { word: "mouth", image: "mouth.png" },
+    { word: "nose", image: "nose.png" },
+    { word: "tooth", image: "tooth.png" },
+
+  ],
+
+  "Animales": [
+    { word: "bear", image: "bear.png" },
+    { word: "bird", image: "bird.png" },
+    { word: "cat", image: "cat.png" },
+    { word: "cow", image: "cow.png" },
+    { word: "dog", image: "dog.png" },
+    { word: "fish", image: "fish.png" },
+    { word: "frog", image: "frog.png" },
+    { word: "lion", image: "lion.png" },
+    { word: "monkey", image: "monkey.png" },
+    { word: "rabbit", image: "rabbit.png" },
+    { word: "snake", image: "snake.png" },
+    { word: "tiger", image: "tiger.png" },
+  ],
+
+  "Colores": [
+    { word: "black", image: "black.png" },
+    { word: "blue", image: "blue.png" },
+    { word: "brown", image: "brown.png" },
+    { word: "gray", image: "gray.png" },
+    { word: "green", image: "green.png" },
+    { word: "orange", image: "orange.png" },
+    { word: "purple", image: "purple.png" },
+    { word: "red", image: "red.png" },
+    { word: "white", image: "white.png" },
+    { word: "yellow", image: "yellow.png" },
+  ],
+};
